@@ -6,6 +6,7 @@
 function packers_wikigen_takers() {
     source ./builder/config
 
+    ls -la
     echo $(pwd)
 
     echo "username: $app_github_dev_name "
