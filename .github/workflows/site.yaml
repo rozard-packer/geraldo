@@ -83,14 +83,13 @@ jobs:
       - name: Prepare packages data
         run: |
           echo "packages"
-      - name: Prepare manual data
-        run: |
-          echo "manual"
+      - name: Create envi vars
+        run: cat builder/config >> $GITHUB_ENV
       - name: listing files
         run: |
-          source builder/config
+          echo $app_github_dev_name
           chmod +x builder/prepare
-          ./builder/prepare
+          ./builder/prepare 
         shell: bash
       - name: Build the site
         run: |
