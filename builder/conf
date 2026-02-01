@@ -1,0 +1,11 @@
+title="zaza"
+hosts="https://localhost/"
+langs="en-US"
+
+github_publishe=yuros-devlabs
+github_upstream=yuros-devlabs/geraldo
+github_packager=yuros-devlabs/geraldo
+
+gitlab_upstream=yuros-devlabs/geraldo
+gitlab_packager=yuros-devlabs/geraldo
+
