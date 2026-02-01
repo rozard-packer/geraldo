@@ -105,7 +105,6 @@ function packer_sitegen_configs() {
     echo "baseURL: $hosts"      >> hugo.yaml
     echo "languageCode: $langs" >> hugo.yaml
 }
-}
 
 
 function packer_sitegen() {
